@@ -35,9 +35,9 @@ public class WriteBlog {
 		this.comment = comment;
 	}
 	
-	@Override
+	/*@Override
 	public String toString() {
 		return "state name"+stateName+"Tag"+tag+"Email"+email+"Comment"+comment;
-	}
+	}*/
 
 }

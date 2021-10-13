@@ -15,9 +15,9 @@
           <label for="state">
           <span>State: </span>
             <select id="state" name="stateName" tabindex="4">   
-               <option value="hello">Maharashtra</option>
-               <option value="quote">Tamil Nadu</option>  
-               <option value="general">Gujarat</option>
+               <option value="Maharashtra">Maharashtra</option>
+               <option value="Tamil Nadu">Tamil Nadu</option>  
+               <option value="Gujarat">Gujarat</option>
             </select>
           </label>
       </div>
@@ -26,9 +26,9 @@
           <label for="tag">
           <span>Tag: </span>
             <select id="tag" name="tag" tabindex="4">   
-               <option value="hello">Culture</option>
-               <option value="quote">Food</option>  
-               <option value="general">Place</option>
+               <option value="Culture">Culture</option>
+               <option value="Food">Food</option>  
+               <option value="Place">Place</option>
             </select>
           </label>
       </div>

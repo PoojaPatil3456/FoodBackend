@@ -91,9 +91,9 @@ button:hover{
 </div>
 <div class="des">
  <p>Indian culture is the heritage of social norms, ethical values, traditional customs, artifacts and technologies that originated in or are associated with the Indian subcontinent.</p>
-<a href="displayCultureBlogs.jsp">  
-     <button>Read More...</button>  
-   </a>
+<form action="culture">  
+     <button type="submit">Read More...</button>  
+ </form>
 </div>
 </div>
 <!--cards -->
@@ -110,9 +110,9 @@ Places To Visit</h1>
 </div>
 <div class="des">
  <p>the One land that all men desire to see, and having seen once, by even a glimpse, would not give that glimpse for all the shows of all the rest of the globe combined.</p>
-<a href="displayPlacesBlogs.jsp">  
-     <button>Read More...</button>  
-   </a>
+<form action="place">  
+     <button type="submit">Read More...</button>  
+ </form>
 </div>
 </div>
 <!--cards -->
@@ -128,9 +128,9 @@ Places To Visit</h1>
 </div>
 <div class="des">
  <p>In India as elsewhere, food culture is shaped by climate, land, and access to natural resources</p>
-<a href="displayFoodBlogs.jsp">  
-     <button><b>Read More...</b></button>  
-   </a>
+<form action="food">  
+     <button type="submit">Read More...</button>  
+ </form>
 </div>
 </div>
 <!--cards -->

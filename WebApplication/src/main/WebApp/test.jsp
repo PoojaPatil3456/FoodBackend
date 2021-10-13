@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
 <html lang="en" dir="ltr">
    <head>
       <meta charset="utf-8">
@@ -37,11 +36,15 @@
                      <div class="btn-layer"></div>
                      <input type="submit" value="Login">
                   </div>
+                  <div class="field btn">
+                     <div class="btn-layer"></div>
+                     <input type="button" value="Google" onclick="window.location.href = '/oauth2/authorization/google';">
+                  </div>
                   <div class="signup-link">
                      Not a member? <a href="">Signup now</a>
                   </div>
                </form>
-               <form action="addUser" class="signup">
+               <form action="addUser" class="signup" name="register">
                		<div class="field">
                      <input type="text" placeholder="UserId" name="userID" required>
                   </div>
@@ -52,17 +55,18 @@
                      <input type="password" placeholder="Password" name="password" required>
                   </div>
                   <div class="field">
-                     <input type="Email" placeholder="Email address" name="userEmail" required>
-                  </div>
+                     <input type="Email" placeholder="Email address" name="userEmail"  required>
+                    </div>
                   <div class="field btn">
                      <div class="btn-layer"></div>
-                     <input type="submit" value="Signup">
+                     <input type="submit" value="Signup" onclick="validate(document.register.userEmail)">
                   </div>
+                  
                </form>
             </div>
          </div>
       </div>
-      <script>
+      <script type="text/javascript">
          const loginText = document.querySelector(".title-text .login");
          const loginForm = document.querySelector("form.login");
          const loginBtn = document.querySelector("label.login");
@@ -80,6 +84,27 @@
            signupBtn.click();
            return false;
          });
+        /* function validate(){
+        	var name=document.getElementById("userName").value;  
+        	 var password=document.getElementById("password").value; 
+        	   
+        	 if (name.value.trim()==""){  
+        	   alert("user name can't have blank spaces");  
+        	   return false;  
+        	 }else if(password.value.trim()==""){  
+        	   alert("password can't have blank spaces");  
+        	   return false;  
+        	   } 
+         }*/
+         function validate(input) {
+        	  var validRegex = /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+.[a-zA-Z]$/;
+        	  if (input.value.match(validRegex)) {
+        	    return true;
+        	  } else {
+        	    alert("Invalid email address!");
+        	  }
+
+        	}
       </script>
    </body>
 </html>

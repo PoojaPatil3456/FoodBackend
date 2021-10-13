@@ -19,8 +19,6 @@ body {
    font-family: Arial, san-serif;
 }
 
-
-/* Contact Form Styles */
 h1 {
    margin: 10px 0 0 0;
 }
@@ -30,11 +28,11 @@ h4{
 #blog-form {
    background-color:rgba(72,72,72,0.9);
    padding: 10px 20px 30px 20px;
-   max-width:200%;
+   max-width:300%;
    float: left;
    left: 50%;
    position: absolute;
-   margin-top:100px;
+   margin-top:300px;
    margin-left: -260px;
    border-radius:7px;
    -webkit-border-radius:7px;
@@ -103,7 +101,6 @@ input:required, textarea:required {
    font-weight:bold;  
    color: #E5E6E7;      
 }
-/* Make form look nice on smaller screens */
 @media only screen and (max-width: 580px) {
    #blog-form{
       left: 3%;
