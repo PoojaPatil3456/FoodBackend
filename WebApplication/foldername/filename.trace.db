@@ -1,6 +1,0 @@
-2021-09-07 09:57:13 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BLOG" not found; SQL statement:
-select blog0_.userid as userid1_0_0_, blog0_.password as password2_0_0_, blog0_.user_email as user_ema3_0_0_, blog0_.user_name as user_nam4_0_0_ from blog blog0_ where blog0_.userid=? [42102-200]
-2021-09-07 09:57:24 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BLOG" not found; SQL statement:
-select blog0_.userid as userid1_0_0_, blog0_.password as password2_0_0_, blog0_.user_email as user_ema3_0_0_, blog0_.user_name as user_nam4_0_0_ from blog blog0_ where blog0_.userid=? [42102-200]
